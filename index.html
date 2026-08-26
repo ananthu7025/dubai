@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khattourism - Dubai & Abu Dhabi Sightseeing Tours</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- linking css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- linking swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo">Khattourism</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#places">Tours</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="images/home3.jpg" alt="image of a home Varanasi">
+                <div class="home-text">
+                    <span>Discover now</span>
+                    <h1>Explore the <br>Limitless Wonders<br>of Dubai</h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="images/home2.jpg" alt="image of a home Varanasi">
+                <div class="home-text">
+                    <span>Discover now</span>
+                    <h1>Experience the <br>Rich Heritage & <br>Luxury of UAE</h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="images/home1.jpg" alt="image of a home Varanasi">
+                <div class="home-text">
+                    <span>Discover now</span>
+                    <h1>Create Memories <br>That Last<br>A Lifetime</h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Places -->
+    <section class="places" id="places">
+        <div class="heading">
+            <h1>Our Main Tours</h1>
+        </div>
+        <div class="swiper places-swiper">
+            <div class="swiper-wrapper">
+
+                <div class="box swiper-slide">
+                    <div class="place-img">
+                        <img src="./images/dubai_half_day.jpg" alt="Dubai Half Day Sightseeing">
+                    </div>
+                    <div class="place-text">
+                        <h2>Dubai Half Day Sightseeing</h2>
+                    </div>
+                    <i class="bx bx-right-arrow-alt place-icon"></i>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="place-img">
+                        <img src="./images/dubai_full_day.jpg" alt="Dubai Full Day Sightseeing">
+                    </div>
+                    <div class="place-text">
+                        <h2>Dubai Full Day Sightseeing</h2>
+                    </div>
+                    <i class="bx bx-right-arrow-alt place-icon"></i>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="place-img">
+                        <img src="./images/dubai_layover.jpg" alt="Dubai Layover Tour">
+                    </div>
+                    <div class="place-text">
+                        <h2>Dubai Layover Tour</h2>
+                    </div>
+                    <i class="bx bx-right-arrow-alt place-icon"></i>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="place-img">
+                        <img src="./images/abu_dhabi_sightseeing.jpg" alt="Abu Dhabi Sightseeing">
+                    </div>
+                    <div class="place-text">
+                        <h2>Abu Dhabi Sightseeing</h2>
+                    </div>
+                    <i class="bx bx-right-arrow-alt place-icon"></i>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="place-img">
+                        <img src="./images/grand_mosque.jpg" alt="Grand Mosque Tour">
+                    </div>
+                    <div class="place-text">
+                        <h2>Grand Mosque Tour</h2>
+                    </div>
+                    <i class="bx bx-right-arrow-alt place-icon"></i>
+                </div>
+
+                <div class="box swiper-slide">
+                    <div class="place-img">
+                        <img src="./images/dubai_photography.jpg" alt="Dubai Photography Tour">
+                    </div>
+                    <div class="place-text">
+                        <h2>Dubai Photography Tour</h2>
+                    </div>
+                    <i class="bx bx-right-arrow-alt place-icon"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- Swiper pagination bullets -->
+        <div class="swiper-pagination places-pagination"></div>
+    </section>
+
+    <!-- Detailed Itineraries Section (Panel Grid Redesign) -->
+    <section class="packages-details" id="packages-details">
+        <!-- SVG Doodles Drawing backdrop -->
+        <div class="packages-doodles">
+            <svg class="doodle-svg doodle-left" viewBox="0 0 400 400" fill="none" stroke="#b08a52" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg">
+                <!-- Dunes -->
+                <path d="M-100 350 C50 300 150 400 300 320 C400 260 500 350 600 300" stroke-dasharray="5 5" />
+                <path d="M-50 380 C100 320 200 420 350 350" />
+                <!-- Camel outline sketch -->
+                <path d="M120 310 Q125 295 135 295 Q140 300 145 290 Q150 280 155 290 Q160 295 170 290 Q175 285 180 295 L185 310" />
+                <!-- Sun -->
+                <circle cx="280" cy="150" r="40" />
+                <path d="M280 95 L280 85 M280 205 L280 215 M225 150 L215 150 M335 150 L345 150 M241 111 L234 104 M319 189 L326 196 M241 189 L234 196 M319 111 L326 104" />
+                <!-- Ocean waves -->
+                <path d="M-100 200 Q-50 215 0 200 T100 200 T200 200" />
+            </svg>
+            
+            <svg class="doodle-svg doodle-center-left" viewBox="0 0 400 400" fill="none" stroke="#b08a52" stroke-width="1.1" xmlns="http://www.w3.org/2000/svg">
+                <!-- Burj Khalifa Outline -->
+                <path d="M200 400 L200 80 L195 100 L195 400 M200 80 L205 100 L205 400" />
+                <path d="M190 140 L190 400 M210 140 L210 400" />
+                <path d="M185 180 L185 400 M215 180 L215 400" />
+                <path d="M175 220 L175 400 M225 220 L225 400" />
+                <path d="M165 260 L165 400 M235 260 L235 400" />
+                <path d="M155 300 L155 400 M245 300 L245 400" />
+            </svg>
+
+            <svg class="doodle-svg doodle-center-right" viewBox="0 0 400 400" fill="none" stroke="#b08a52" stroke-width="1.1" xmlns="http://www.w3.org/2000/svg">
+                <!-- Burj Al Arab Outline -->
+                <path d="M150 400 C150 300 220 200 280 150 L280 400" />
+                <path d="M150 400 C180 300 240 220 280 150" />
+                <path d="M160 360 L280 360 M175 320 L280 320 M195 280 L280 280 M220 240 L280 240 M245 200 L280 200" />
+                <path d="M280 180 L310 180 M280 183 L300 187" />
+            </svg>
+
+            <svg class="doodle-svg doodle-right" viewBox="0 0 400 400" fill="none" stroke="#b08a52" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg">
+                <!-- Palm trees sketch -->
+                <path d="M300 400 Q320 280 260 180" stroke-width="2.5" />
+                <path d="M260 180 Q200 160 180 190 M260 180 Q230 120 270 120 M260 180 Q310 140 330 170 M260 180 Q310 200 310 230" />
+                <path d="M350 400 Q365 310 320 240" stroke-width="1.8" />
+                <path d="M320 240 Q280 220 260 240 M320 240 Q300 190 330 190 M320 240 Q360 210 370 230" />
+                <!-- Birds flying -->
+                <path d="M80 80 Q90 70 100 80 Q110 70 120 80" />
+                <path d="M140 100 Q148 92 156 100 Q164 92 172 100" />
+            </svg>
+        </div>
+
+        <div class="heading">
+            <h1>Featured Tours</h1>
+            <p>Discover unique destinations, guided sightseeing, and curated landmarks designed to inspire your spirit.</p>
+        </div>
+
+        <div class="itinerary-grid">
+            <!-- Cell 1 -->
+            <div class="grid-cell" id="tour-detail-0">
+                <div class="cell-content">
+                    <h2>Dubai Half Day Sightseeing</h2>
+                    <span class="cell-price">from $99</span>
+                    <div class="cell-metadata">
+                        <div class="meta-row"><i class='bx bx-map'></i> <span>Dubai, UAE</span></div>
+                        <div class="meta-row"><i class='bx bx-time'></i> <span>4-5 Hours duration</span></div>
+                        <div class="meta-row"><i class='bx bx-group'></i> <span>Guided Private/Group Tour</span></div>
+                        <div class="meta-row"><i class='bx bx-star'></i> <span>Highly rated • 5 Stars</span></div>
+                    </div>
+                    <a href="#contact" class="btn explore-btn">Explore Tour <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="cell-image">
+                    <img src="./images/dubai_half_day.jpg" alt="Dubai Half Day Sightseeing">
+                </div>
+            </div>
+            
+            <!-- Cell 2 -->
+            <div class="grid-cell" id="tour-detail-1">
+                <div class="cell-content">
+                    <h2>Dubai Full Day Sightseeing</h2>
+                    <span class="cell-price">from $149</span>
+                    <div class="cell-metadata">
+                        <div class="meta-row"><i class='bx bx-map'></i> <span>Dubai Landmarks</span></div>
+                        <div class="meta-row"><i class='bx bx-time'></i> <span>8-9 Hours exploration</span></div>
+                        <div class="meta-row"><i class='bx bx-group'></i> <span>All Inclusions Package</span></div>
+                        <div class="meta-row"><i class='bx bx-star'></i> <span>Best Value • 5 Stars</span></div>
+                    </div>
+                    <a href="#contact" class="btn explore-btn">Explore Tour <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="cell-image">
+                    <img src="./images/dubai_full_day.jpg" alt="Dubai Full Day Sightseeing">
+                </div>
+            </div>
+
+            <!-- Cell 3 -->
+            <div class="grid-cell" id="tour-detail-2">
+                <div class="cell-content">
+                    <h2>Dubai Layover Tour</h2>
+                    <span class="cell-price">from $89</span>
+                    <div class="cell-metadata">
+                        <div class="meta-row"><i class='bx bx-map'></i> <span>Airport Pickup & Drop</span></div>
+                        <div class="meta-row"><i class='bx bx-time'></i> <span>3-6 Hours flexible</span></div>
+                        <div class="meta-row"><i class='bx bx-taxi'></i> <span>Custom Airport Transit</span></div>
+                        <div class="meta-row"><i class='bx bx-star'></i> <span>Transit Special • 5 Stars</span></div>
+                    </div>
+                    <a href="#contact" class="btn explore-btn">Explore Tour <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="cell-image">
+                    <img src="./images/dubai_layover.jpg" alt="Dubai Layover Tour">
+                </div>
+            </div>
+
+            <!-- Cell 4 -->
+            <div class="grid-cell" id="tour-detail-3">
+                <div class="cell-content">
+                    <h2>Abu Dhabi Sightseeing</h2>
+                    <span class="cell-price">from $199</span>
+                    <div class="cell-metadata">
+                        <div class="meta-row"><i class='bx bx-map'></i> <span>Abu Dhabi, UAE</span></div>
+                        <div class="meta-row"><i class='bx bx-time'></i> <span>8-10 Hours day trip</span></div>
+                        <div class="meta-row"><i class='bx bx-group'></i> <span>Guided Capital tour</span></div>
+                        <div class="meta-row"><i class='bx bx-star'></i> <span>Highly rated • 5 Stars</span></div>
+                    </div>
+                    <a href="#contact" class="btn explore-btn">Explore Tour <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="cell-image">
+                    <img src="./images/abu_dhabi_sightseeing.jpg" alt="Abu Dhabi Sightseeing">
+                </div>
+            </div>
+
+            <!-- Cell 5 -->
+            <div class="grid-cell" id="tour-detail-4">
+                <div class="cell-content">
+                    <h2>Grand Mosque Tour</h2>
+                    <span class="cell-price">from $129</span>
+                    <div class="cell-metadata">
+                        <div class="meta-row"><i class='bx bx-map'></i> <span>Sheikh Zayed Mosque</span></div>
+                        <div class="meta-row"><i class='bx bx-time'></i> <span>5-6 Hours duration</span></div>
+                        <div class="meta-row"><i class='bx bx-compass'></i> <span>Cultural guide escort</span></div>
+                        <div class="meta-row"><i class='bx bx-star'></i> <span>Top cultural • 5 Stars</span></div>
+                    </div>
+                    <a href="#contact" class="btn explore-btn">Explore Tour <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="cell-image">
+                    <img src="./images/grand_mosque.jpg" alt="Grand Mosque Tour">
+                </div>
+            </div>
+
+            <!-- Cell 6 -->
+            <div class="grid-cell" id="tour-detail-5">
+                <div class="cell-content">
+                    <h2>Dubai Photography Tour</h2>
+                    <span class="cell-price">from $179</span>
+                    <div class="cell-metadata">
+                        <div class="meta-row"><i class='bx bx-map'></i> <span>Dubai Marina & Souks</span></div>
+                        <div class="meta-row"><i class='bx bx-time'></i> <span>4 Hours duration</span></div>
+                        <div class="meta-row"><i class='bx bx-camera'></i> <span>Pro photographer support</span></div>
+                        <div class="meta-row"><i class='bx bx-star'></i> <span>Visual arts • 5 Stars</span></div>
+                    </div>
+                    <a href="#contact" class="btn explore-btn">Explore Tour <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="cell-image">
+                    <img src="./images/dubai_photography.jpg" alt="Dubai Photography Tour">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Perks Section -->
+    <section class="signature-perks" id="signature-perks">
+        <div class="heading">
+            <h1>Signature Perks</h1>
+            <p>Why travelers choose Khattourism for premium UAE experiences</p>
+        </div>
+        <div class="perks-grid">
+            <div class="perk-cell">
+                <i class='bx bx-user-voice'></i>
+                <h3>Private Host & Guide</h3>
+                <p>Every tour is accompanied by a local specialist who translates history and culture into personal narratives, ensuring you see the UAE through a local's eyes.</p>
+            </div>
+            <div class="perk-cell">
+                <i class='bx bx-time-five'></i>
+                <h3>Bespoke Scheduling</h3>
+                <p>We adjust each itinerary around flight terminals, layover times, and sunset golden hours, tailoring coordinates completely to your travel window.</p>
+            </div>
+            <div class="perk-cell">
+                <i class='bx bx-car'></i>
+                <h3>Private Mercedes Fleet</h3>
+                <p>Travel comfortably in private, climate-controlled premium vehicles with chilled refreshments, direct terminal pickups, and luggage transfer.</p>
+            </div>
+            <div class="perk-cell">
+                <i class='bx bx-key'></i>
+                <h3>Hand-Selected Access</h3>
+                <p>Bypass waiting queues and tourist traps. We secure direct fast-track entries to landmarks, observation decks, and authentic souks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Diary Section -->
+    <section class="visual-diary" id="visual-diary">
+        <div class="heading">
+            <h1>Visual Diary</h1>
+            <p>Real moments captured by our guests across the emirates</p>
+        </div>
+        <div class="visual-diary-grid">
+            <div class="diary-item item-tall">
+                <img src="./images/dubai_full_day.jpg" alt="Dubai Marina Skyline">
+                <div class="diary-overlay"><span>@khattourism • Dubai Marina</span></div>
+            </div>
+            <div class="diary-item">
+                <img src="./images/grand_mosque.jpg" alt="Grand Mosque Domes">
+                <div class="diary-overlay"><span>@khattourism • Abu Dhabi</span></div>
+            </div>
+            <div class="diary-item">
+                <img src="./images/dubai_photography.jpg" alt="Sheikh Zayed Road Sunset">
+                <div class="diary-overlay"><span>@khattourism • Golden Hour</span></div>
+            </div>
+            <div class="diary-item item-wide">
+                <img src="./images/dubai_immersive_bg.jpg" alt="Burj Al Arab Beach">
+                <div class="diary-overlay"><span>@khattourism • Jumeirah Beach</span></div>
+            </div>
+            <div class="diary-item">
+                <img src="./images/dubai_half_day.jpg" alt="Dubai Souks Traditional Abra">
+                <div class="diary-overlay"><span>@khattourism • Gold Souk</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- video section -->
+    <section class="video" id="video">
+        <div class="video-container">
+            <img src="./images/dubai_immersive_bg.jpg" alt="Immersive View of Dubai">
+        </div>
+        <div class="video-content">
+            <h1 class="video-title">Immerse Yourself in the Wonders of the UAE</h1>
+            <p class="video-subtitle">Watch the most attractive destinations come alive</p>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h1>Crafting unforgettable journeys across Dubai & Abu Dhabi.</h1>
+            <p>
+                Discover the magic of the United Arab Emirates with Khattourism. We offer curated sightseeing experiences, private layover tours, mosque visits, and professional photography journeys designed to create lifetime memories.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="about-img">
+            <img src="images/final.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-accordion" id="faq-accordion">
+        <div class="heading">
+            <h1>Frequently Asked Questions</h1>
+            <p>Answers to common queries about our premium tour packages</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-column">
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>Do you provide airport pickups for transit layovers?</h3>
+                        <span class="faq-icon"><i class='bx bx-plus'></i></span>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-body-content">
+                            <p>Yes. We coordinate direct meets at Dubai International (DXB) or Abu Dhabi (AUH) terminals, tracking your flight status in real-time to adjust for any delays.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>What is the dress code for visiting the Grand Mosque?</h3>
+                        <span class="faq-icon"><i class='bx bx-plus'></i></span>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-body-content">
+                            <p>All visitors must dress modestly. Women require loose, long clothing covering wrists and ankles, and a headscarf. Men require long trousers and sleeved shirts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-column">
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>Are admission tickets included in the tour packages?</h3>
+                        <span class="faq-icon"><i class='bx bx-plus'></i></span>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-body-content">
+                            <p>Our all-inclusive private tours secure all fast-track entry passes (e.g. Dubai Frame, Abra crossings) beforehand, so you bypass ticket counter lines entirely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>Can we customize the route during the tour?</h3>
+                        <span class="faq-icon"><i class='bx bx-plus'></i></span>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-body-content">
+                            <p>Absolutely. Because our tours are privately hosted, you can consult with your driver-guide to adjust stops, spend more time at photo spots, or skip segments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h1>Contact Us</h1>
+            <p>Get in touch with Khattourism to book your bespoke tour package</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Start Your Adventure</h3>
+                <p>Have questions about our sightseeing tours or want to plan a custom itinerary? Reach out to us, and our travel specialists will assist you.</p>
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <span>info@khattourism.com</span>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone'></i>
+                    <span>+971 4 123 4567</span>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-map'></i>
+                    <span>Dubai, United Arab Emirates</span>
+                </div>
+            </div>
+            <form action="#" class="contact-form" id="contactForm">
+                <div class="input-box">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="input-box">
+                    <textarea placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- fotter -->
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Khattourism</h2>
+           <p>
+            Khattourism LLC specializes in providing premium guided tours and customized travel experiences in Dubai and Abu Dhabi. Explore the finest attractions, culture, and architecture with our professional guides.
+           </p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Contact us</h3>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">Customers</a></li>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Khattourism LLC. All Rights Reserved.</p>
+    </div>
+
+    
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="index.js"></script>
+</body>
+</html>
