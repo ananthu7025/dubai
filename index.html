@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Private Dubai Tours & Luxury Experiences | Discover Dubai with a Local</title>
-    <meta name="description" content="Explore Dubai with licensed local guides, private vehicles and personalised itineraries — designed around your time, interests and travel style.">
-    <meta name="keywords" content="Dubai private tours, licensed local guides Dubai, Dubai luxury experiences, Abu Dhabi tour, private yacht tour Dubai, jet ski Dubai">
+    <meta name="description"
+        content="Explore Dubai with licensed local guides, private vehicles and personalised itineraries — designed around your time, interests and travel style.">
+    <meta name="keywords"
+        content="Dubai private tours, licensed local guides Dubai, Dubai luxury experiences, Abu Dhabi tour, private yacht tour Dubai, jet ski Dubai">
     <meta property="og:title" content="Discover Dubai. Experience It With a Local | Private Dubai Tours">
-    <meta property="og:description" content="Private tours, licensed local guides, private luxury vehicles and personalised itineraries designed around your time.">
+    <meta property="og:description"
+        content="Private tours, licensed local guides, private luxury vehicles and personalised itineraries designed around your time.">
     <meta property="og:type" content="website">
 
     <!-- Schema.org JSON-LD Structured Data for SEO -->
@@ -28,72 +32,169 @@
       }
     }
     </script>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- EXACT FLOATING CAPSULE HEADER -->
-    <header class="capsule-header" id="mainHeader">
-        <a href="#" class="logo">
-            <i data-lucide="compass" style="color: var(--primary-blue);"></i>
-            <span>Khattourism</span>
-        </a>
-        <div class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
-            <i data-lucide="menu"></i>
+    <!-- EXACT HEADER (MATCHING DESKTOP & MOBILE REFERENCE) -->
+    <header class="site-header" id="mainHeader">
+        <div class="header-container">
+            <a href="#" class="header-logo">
+                <div class="logo-compass-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                        <circle cx="12" cy="12" r="10" stroke="#0077e6" />
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="#0077e6"
+                            stroke="#0077e6" />
+                    </svg>
+                </div>
+                <div class="logo-text-group">
+                    <span class="logo-title">Khattourism</span>
+                    <span class="logo-subtitle">DUBAI. BEYOND EXPECTATIONS</span>
+                </div>
+            </a>
+
+            <ul class="navbar" id="mainNav">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#why-choose-us">Why Book With Us</a></li>
+                <li><a href="#featured-tours">Explore Dubai</a></li>
+                <li><a href="#why-private">Why Private?</a></li>
+                <li><a href="#guest-reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="header-right-action">
+                <a href="https://wa.me/971501234567" target="_blank" class="header-whatsapp-pill">
+                    <i data-lucide="message-circle"></i> WhatsApp Us
+                </a>
+                <div class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
         </div>
-        <ul class="navbar" id="mainNav">
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#why-choose-us">Why Book With Us</a></li>
-            <li><a href="#featured-tours">Explore Dubai</a></li>
-            <li><a href="#why-private">Why Private?</a></li>
-            <li><a href="#guest-reviews">Reviews</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
     </header>
 
-    <!-- 1. FULL-SCREEN IMAGE HERO SECTION (NO CAROUSEL, EDITORIAL LUXURY) -->
-    <section class="hero-fullscreen-section" id="hero">
-        <div class="hero-fullscreen-overlay"></div>
-        <div class="container">
-            <div class="hero-fullscreen-content">
-                <span class="hero-fs-tag">
-                    <i data-lucide="compass"></i> Private Dubai Tours & Luxury Experiences
-                </span>
-                
-                <h1 class="hero-fs-title">
-                    DISCOVER DUBAI.<br>
-                    <span>EXPERIENCE IT WITH A LOCAL.</span>
+    <!-- 1. BRIGHT LUXURY HERO SECTION (EXACTLY AS PER REFERENCE IMAGES) -->
+    <section class="hero-bright-section" id="hero">
+        <!-- Bright left-to-right daylight overlay -->
+        <div class="hero-bright-overlay"></div>
+
+        <!-- Desktop Top Right Handwritten Script Tag -->
+        <div class="hero-script-badge">
+            <span class="script-quote">More<br>than a trip.<br>A story to tell.</span>
+            <svg class="script-curl-svg" width="90" height="18" viewBox="0 0 90 18" fill="none">
+                <path d="M4 14C24 4 60 4 86 12" stroke="#0a2540" stroke-width="2.2" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="container hero-bright-container">
+            <div class="hero-bright-content">
+
+
+                <!-- Main Bold Title -->
+                <h1 class="hero-headline">
+                    DISCOVER<br>
+                    <span class="hero-title-blue">DUBAI.</span>
                 </h1>
-                
-                <p class="hero-fs-desc">
-                    Explore Dubai with licensed local guides, private vehicles, and personalised itineraries — designed around your time, interests, and travel style.
+                <div class="hero-subheadline">
+                    EXPERIENCE IT WITH A LOCAL.
+                </div>
+
+                <!-- Short Paragraph Description -->
+                <p class="hero-description">
+                    Explore Dubai with licensed local guides, private vehicles, and personalised itineraries.
                 </p>
-                
-                <div class="hero-fs-actions">
-                    <a href="#featured-tours" class="btn-fs-primary">
-                        <i data-lucide="compass"></i> EXPLORE TOURS
+                <!-- CTA Action Buttons -->
+                <div class="hero-cta-buttons">
+                    <a href="#featured-tours" class="btn-hero-explore">
+                        <i data-lucide="compass"></i> EXPLORE <i data-lucide="arrow-right"></i>
                     </a>
-                    <a href="https://wa.me/971501234567" target="_blank" class="btn-fs-whatsapp">
+                    <a href="https://wa.me/971501234567" target="_blank" class="btn-hero-whatsapp">
                         <i data-lucide="message-circle"></i> WHATSAPP US
                     </a>
                 </div>
-                
-                <div class="hero-fs-trust">
-                    <span><i data-lucide="check-circle-2"></i> Private Vehicle</span>
-                    <span><i data-lucide="check-circle-2"></i> Licensed Guides</span>
-                    <span><i data-lucide="check-circle-2"></i> Hotel Pickup</span>
-                    <span><i data-lucide="check-circle-2"></i> Personalised Experiences</span>
+
+                <!-- Mobile-Only Floating Reviews Card -->
+                <div class="mobile-hero-reviews-card">
+                    <div class="mobile-rev-top-row">
+                        <div class="mobile-avatar-stack">
+                            <img src="./images/avatar_traveler_male.jpg" alt="Reviewer" class="m-avatar">
+                            <img src="./images/avatar_sarah.jpg" alt="Reviewer" class="m-avatar">
+                            <img src="./images/avatar_traveler_male.jpg" alt="Reviewer" class="m-avatar">
+                        </div>
+                        <div class="mobile-rev-rating-wrap">
+                            <div class="m-stars">★★★★★</div>
+                            <div class="m-rating-text"><strong>4.9/5</strong> from 2,000+ travellers</div>
+                        </div>
+                    </div>
+                    <div class="mobile-rev-quote">
+                        “An unforgettable Dubai experience!”
+                    </div>
                 </div>
+            </div>
+
+            <!-- Desktop Bottom Floating Dock Bar -->
+            <div class="hero-floating-dock">
+                <!-- 1. Review Summary -->
+                <div class="dock-col dock-review-col">
+                    <img src="./images/avatar_traveler_male.jpg" alt="Verified Guest" class="dock-avatar-img">
+                    <div class="dock-review-meta">
+                        <div class="dock-stars-row">★★★★★</div>
+                        <div class="dock-score-text"><strong>4.9/5</strong> from 2,000+ travellers</div>
+                        <div class="dock-quote-text">“An unforgettable Dubai experience!”</div>
+                    </div>
+                </div>
+
+                <div class="dock-divider-line"></div>
+
+                <!-- 2. Iconic Sights -->
+                <div class="dock-col dock-info-col">
+                    <div class="dock-icon-box"><i data-lucide="map-pin"></i></div>
+                    <div class="dock-col-text">
+                        <div class="dock-col-heading">ICONIC SIGHTS</div>
+                        <div class="dock-col-sub">Burj Khalifa, Desert Safari, Old Dubai & more</div>
+                    </div>
+                </div>
+
+                <div class="dock-divider-line"></div>
+
+                <!-- 3. Trusted & Licensed -->
+                <div class="dock-col dock-info-col">
+                    <div class="dock-icon-box"><i data-lucide="shield-check"></i></div>
+                    <div class="dock-col-text">
+                        <div class="dock-col-heading">TRUSTED & LICENSED</div>
+                        <div class="dock-col-sub">Safe, reliable & professional</div>
+                    </div>
+                </div>
+
+                <!-- 4. Overlapping Photo Thumbnails -->
+                <div class="dock-col dock-thumbs-col">
+                    <div class="dock-thumb-cluster">
+                        <img src="./images/desert_safari_thumb.jpg" alt="Desert Safari" class="dock-thumb-img thumb-1">
+                        <img src="./images/grand_mosque.jpg" alt="Grand Mosque" class="dock-thumb-img thumb-2">
+                        <img src="./images/dubai_creek_abra.jpg" alt="Dubai Creek Abra" class="dock-thumb-img thumb-3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Bottom Scroll Indicator -->
+            <div class="mobile-scroll-indicator">
+                <div class="mobile-scroll-icon-wrap">
+                    <i data-lucide="arrow-down"></i>
+                </div>
+                <span class="mobile-scroll-label">SCROLL TO EXPLORE</span>
             </div>
         </div>
     </section>
@@ -196,7 +297,8 @@
                 </a>
 
                 <!-- Arch 5: Sheikh Zayed Grand Mosque Tour -->
-                <a href="sheikh-zayed-grand-mosque-tour-from-dubai.html" class="arch-pill-card" data-category="abu-dhabi">
+                <a href="sheikh-zayed-grand-mosque-tour-from-dubai.html" class="arch-pill-card"
+                    data-category="abu-dhabi">
                     <div class="arch-pill-image-wrapper">
                         <img src="./images/grand_mosque.jpg" alt="Sheikh Zayed Grand Mosque Tour">
                         <div class="arch-pill-overlay">
@@ -221,141 +323,7 @@
     </section>
 
 
-    <!-- 3 & 4. EXPLORE DUBAI & ABU DHABI (LARGE VISUAL BENTO CARDS) -->
-    <section class="featured-tours-section" id="featured-tours">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-eyebrow">Iconic Destinations</span>
-                <h2 class="section-title">Explore Dubai & Abu Dhabi</h2>
-                <p class="section-desc">Explore Dubai with licensed local guides, private vehicles and personalised itineraries.</p>
-            </div>
 
-            <div class="tours-bento-container">
-                <!-- ROW 1: Dubai Half-Day + Dubai Full-Day + Burj Khalifa -->
-                <div class="bento-row-1">
-                    <!-- Card 1: Dubai Half-Day City Tour -->
-                    <div class="tc-tour-card" id="tour-half-day">
-                        <img src="./images/dubai_half_day.jpg" alt="Dubai Half-Day City Tour" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title">Dubai Half-Day City Tour</h3>
-                            <p class="tc-tour-subtitle">Dubai’s iconic landmarks in one unforgettable journey.</p>
-                            <span class="tc-tour-price">4–5 Hours • Private Tour</span>
-                            <a href="dubai-half-day-city-tour.html" class="tc-tour-btn-pill">
-                                <span>View Tour →</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Card 2: Dubai Full-Day Tour + Burj Khalifa -->
-                    <div class="tc-tour-card" id="tour-full-day">
-                        <img src="./images/dubai_full_day.jpg" alt="Dubai Full-Day Tour + Burj Khalifa" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title" style="font-size: 1.5rem;">Dubai Full-Day Tour + Burj Khalifa</h3>
-                            <p class="tc-tour-subtitle">Experience Old Dubai, Palm Jumeirah, Downtown Dubai & ascend the Burj Khalifa.</p>
-                            <span class="tc-tour-price">8 Hours • Private Tour</span>
-                            <a href="dubai-half-day-city-tour.html" class="tc-tour-btn-pill">
-                                <span>View Tour →</span>
-                            </a>
-                        </div>
-                        <div class="tc-tour-dots">
-                            <div class="tc-tour-dot"></div>
-                            <div class="tc-tour-dot white"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ROW 2: Abu Dhabi Full-Day + Old Dubai + Modern Dubai -->
-                <div class="bento-row-2">
-                    <!-- Card 3: Abu Dhabi Full-Day Sightseeing -->
-                    <div class="tc-tour-card" id="tour-abu-dhabi">
-                        <img src="./images/abu_dhabi_sightseeing.jpg" alt="Abu Dhabi Full-Day Sightseeing" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title">Abu Dhabi Full-Day Sightseeing</h3>
-                            <p class="tc-tour-subtitle">A full-day journey through the capital of the UAE.</p>
-                            <span class="tc-tour-price">Full Day • Private Tour</span>
-                            <a href="abu-dhabi-sightseeing-tour-from-dubai.html" class="tc-tour-btn-pill">
-                                <span>View Tour →</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Card 4: Old Dubai Walking Tour -->
-                    <div class="tc-tour-card" id="tour-old-dubai">
-                        <img src="./images/dubai_layover.jpg" alt="Old Dubai Walking Tour" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title" style="font-size: 1.15rem;">Old Dubai Walking Tour</h3>
-                            <p class="tc-tour-subtitle">Discover Dubai’s history, culture and traditional souks.</p>
-                            <a href="old-dubai-walking-tour.html" class="tc-tour-btn-round" aria-label="View Tour">
-                                <i data-lucide="arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Card 5: Modern Dubai Tour -->
-                    <div class="tc-tour-card" id="tour-modern-dubai">
-                        <img src="./images/hero_dubai_fullscreen.jpg" alt="Modern Dubai Tour" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title" style="font-size: 1.15rem;">Modern Dubai Tour</h3>
-                            <p class="tc-tour-subtitle">Discover Dubai’s futuristic skyline, Palm Jumeirah, Marina and Downtown.</p>
-                            <a href="modern-dubai-tour.html" class="tc-tour-btn-round" aria-label="View Tour">
-                                <i data-lucide="arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ROW 3: Sheikh Zayed Grand Mosque + Yacht + Jet Ski -->
-                <div class="bento-row-3">
-                    <!-- Card 6: Sheikh Zayed Grand Mosque Tour -->
-                    <div class="tc-tour-card" id="tour-grand-mosque">
-                        <img src="./images/grand_mosque.jpg" alt="Sheikh Zayed Grand Mosque Tour" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title">Sheikh Zayed Grand Mosque Tour</h3>
-                            <p class="tc-tour-subtitle">Discover one of the UAE’s most remarkable architectural landmarks.</p>
-                            <span class="tc-tour-price">Private Cultural Tour</span>
-                            <a href="sheikh-zayed-grand-mosque-tour-from-dubai.html" class="tc-tour-btn-pill">
-                                <span>View Tour →</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Card 7: Private Yacht Tour -->
-                    <div class="tc-tour-card" id="tour-yacht">
-                        <img src="./images/dubai_yacht_banner.jpg" alt="Private Yacht Tour" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title">Private Yacht Tour</h3>
-                            <p class="tc-tour-subtitle">See Dubai from the water.</p>
-                            <span class="tc-tour-price">Luxury Private Charter</span>
-                            <a href="private-yacht-tour-dubai.html" class="tc-tour-btn-pill">
-                                <span>View Tour →</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Card 8: Jet Ski Experience -->
-                    <div class="tc-tour-card" id="tour-jet-ski">
-                        <img src="./images/dubai_photography.jpg" alt="Jet Ski Experience" class="tc-tour-bg">
-                        <div class="tc-tour-gradient-overlay"></div>
-                        <div class="tc-tour-content">
-                            <h3 class="tc-tour-title">Jet Ski Experience</h3>
-                            <p class="tc-tour-subtitle">Experience Dubai’s coastline from the water.</p>
-                            <span class="tc-tour-price">Coastline Thrill Experience</span>
-                            <a href="dubai-jet-ski-tour-burj-al-arab.html" class="tc-tour-btn-pill">
-                                <span>View Experience →</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- 7. WHY CHOOSE A PRIVATE TOUR? -->
     <section class="why-private-section" id="why-private">
@@ -363,7 +331,8 @@
             <div class="section-header">
                 <span class="section-eyebrow">Personalised Travel</span>
                 <h2 class="section-title">Why Choose a Private Tour?</h2>
-                <p class="section-desc">No rushing. No crowded buses. No fixed group itinerary. Just Dubai, your way.</p>
+                <p class="section-desc">No rushing. No crowded buses. No fixed group itinerary. Just Dubai, your way.
+                </p>
             </div>
 
             <div class="why-private-bento">
@@ -374,11 +343,12 @@
                             <img src="./images/private_vehicle_interior.jpg" alt="Your Time - Private Vehicle">
                         </div>
                         <h3 class="bento-headline">
-                            Your Time — <span class="text-muted-word">No waiting for other guests.</span> Enjoy dedicated private transportation and door-to-door convenience on your exact schedule.
+                            Your Time — <span class="text-muted-word">No waiting for other guests.</span> Enjoy
+                            dedicated private transportation and door-to-door convenience on your exact schedule.
                         </h3>
                     </div>
                     <a href="#featured-tours" class="bento-pill-btn">
-                        <span>Explore Tours</span>
+                        <span>Explore</span>
                         <i data-lucide="arrow-right"></i>
                     </a>
                 </div>
@@ -390,17 +360,20 @@
                         <!-- Card 1: Your Guide -->
                         <div class="bento-card-medium">
                             <div class="bento-img-frame bento-medium-photo">
-                                <img src="./images/private_guide_interaction.jpg" alt="Your Guide - Licensed Local Guides">
+                                <img src="./images/private_guide_interaction.jpg"
+                                    alt="Your Guide - Licensed Local Guides">
                             </div>
                             <h3 class="bento-headline-sm">
-                                Your Guide — <span class="text-muted-word">Ask questions and discover Dubai</span> beyond the usual tourist route.
+                                Your Guide — <span class="text-muted-word">Ask questions and discover Dubai</span>
+                                beyond the usual tourist route.
                             </h3>
                         </div>
 
                         <!-- Card 2: Stat Card -->
                         <div class="bento-card-stat">
                             <div class="bento-stat-num">100%</div>
-                            <div class="bento-stat-label">No rushing. No crowded buses. No fixed group itinerary. Just Dubai, your way.</div>
+                            <div class="bento-stat-label">No rushing. No crowded buses. No fixed group itinerary. Just
+                                Dubai, your way.</div>
                         </div>
                     </div>
 
@@ -408,9 +381,11 @@
                     <div class="bento-card-wide">
                         <div>
                             <h3 class="bento-headline">
-                                Your Pace & Your Experience — <span class="text-muted-word">Spend more time where you want.</span>
+                                Your Pace & Your Experience — <span class="text-muted-word">Spend more time where you
+                                    want.</span>
                             </h3>
-                            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; margin-top: 8px;">
+                            <p
+                                style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; margin-top: 8px;">
                                 Families, couples, solo travellers or groups — your tour is designed around you.
                             </p>
                         </div>
@@ -423,49 +398,62 @@
         </div>
     </section>
 
-    <!-- DISCOVER DUBAI DESTINATION SHOWCASE -->
-    <section class="discover-dubai-section" id="discover-dubai">
+    <!-- TAILORED TRAVEL STYLES SHOWCASE (NO REPETITIVE ITINERARIES) -->
+    <section class="discover-dubai-section" id="travel-styles">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">Explore The Emirates</span>
-                <h2 class="section-title">Discover Dubai</h2>
-                <p class="section-desc">From ancient souks to record-breaking skylines, explore every side of the emirates.</p>
+                <span class="section-eyebrow">Personalised Experiences</span>
+                <h2 class="section-title">Crafted For How You Travel</h2>
+                <p class="section-desc">Whether with family, a partner, or on a quick transit layover, every private
+                    journey is custom-shaped around your style.</p>
             </div>
 
             <div class="discover-grid">
-                <!-- 1. Old Dubai -->
+                <!-- 1. Families & Kids -->
                 <div class="discover-card">
-                    <img src="./images/dubai_half_day.jpg" alt="Old Dubai Walking Tour" class="discover-card-img">
+                    <img src="./images/dubai_hero_new.jpg" alt="Family Friendly Private Dubai Tour"
+                        class="discover-card-img">
                     <div class="discover-card-overlay">
-                        <h3 class="discover-card-title">Old Dubai</h3>
-                        <span class="discover-card-subtitle">Creek, Gold Souk & Al Fahidi</span>
+                        <span class="discover-card-badge"><i data-lucide="users"></i> Family First</span>
+                        <h3 class="discover-card-title">Families & Children</h3>
+                        <p class="discover-card-desc">Unhurried pace, clean private vehicle, child booster seats, and
+                            fun storytelling tailored for all ages.</p>
                     </div>
                 </div>
 
-                <!-- 2. Modern Dubai -->
+                <!-- 2. Couples & Romance -->
                 <div class="discover-card">
-                    <img src="./images/dubai_full_day.jpg" alt="Modern Dubai Tour" class="discover-card-img">
+                    <img src="./images/dubai_marina_yacht.jpg" alt="Couples Romantic Private Dubai Tour"
+                        class="discover-card-img">
                     <div class="discover-card-overlay">
-                        <h3 class="discover-card-title">Modern Dubai</h3>
-                        <span class="discover-card-subtitle">Burj Khalifa & Downtown</span>
+                        <span class="discover-card-badge"><i data-lucide="heart"></i> Romantic Escapes</span>
+                        <h3 class="discover-card-title">Couples & Honeymoon</h3>
+                        <p class="discover-card-desc">Golden hour skyline views, private waterfront strolls, scenic
+                            photography spots, and bespoke dining stops.</p>
                     </div>
                 </div>
 
-                <!-- 3. Luxury Experiences -->
+                <!-- 3. Layover & Transit -->
                 <div class="discover-card">
-                    <img src="./images/dubai_photography.jpg" alt="Luxury Experiences Dubai" class="discover-card-img">
+                    <img src="./images/private_guide_interaction.jpg" alt="Dubai Airport Layover Tour"
+                        class="discover-card-img">
                     <div class="discover-card-overlay">
-                        <h3 class="discover-card-title">Luxury Experiences</h3>
-                        <span class="discover-card-subtitle">Private Yacht & Coastline</span>
+                        <span class="discover-card-badge"><i data-lucide="plane"></i> Direct Airport Pickup</span>
+                        <h3 class="discover-card-title">Layover & Transit</h3>
+                        <p class="discover-card-desc">Direct DXB terminal pickup, secure luggage handling, and max
+                            highlights within your 4–8 hour transit window.</p>
                     </div>
                 </div>
 
-                <!-- 4. Abu Dhabi -->
+                <!-- 4. Bespoke & VIP -->
                 <div class="discover-card">
-                    <img src="./images/abu_dhabi_sightseeing.jpg" alt="Abu Dhabi Sightseeing" class="discover-card-img">
+                    <img src="./images/concierge_consultation.jpg" alt="Custom VIP Private Tour Dubai"
+                        class="discover-card-img">
                     <div class="discover-card-overlay">
-                        <h3 class="discover-card-title">Abu Dhabi</h3>
-                        <span class="discover-card-subtitle">Grand Mosque & Capital Wonders</span>
+                        <span class="discover-card-badge"><i data-lucide="sparkles"></i> 100% Bespoke</span>
+                        <h3 class="discover-card-title">VIP & Custom Itineraries</h3>
+                        <p class="discover-card-desc">Luxury private yachts, helicopter flights, desert sunset camps, or
+                            milestone celebrations made effortless.</p>
                     </div>
                 </div>
             </div>
@@ -484,7 +472,8 @@
                 <img src="./images/why_choose_us_bg.jpg" alt="Travelers in Dubai" class="why-choose-bg-img">
                 <div class="why-choose-overlay"></div>
 
-                <div class="why-choose-staggered-grid" style="grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));">
+                <div class="why-choose-staggered-grid"
+                    style="grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));">
                     <!-- 1. Private Vehicle -->
                     <div class="staggered-card card-cream">
                         <div>
@@ -500,7 +489,8 @@
                     <div class="staggered-card card-orange">
                         <div>
                             <h3 class="staggered-title">Licensed Guides</h3>
-                            <p class="staggered-desc">Explore with experienced local guides certified by Dubai tourism.</p>
+                            <p class="staggered-desc">Explore with experienced local guides certified by Dubai tourism.
+                            </p>
                         </div>
                         <div class="staggered-icon-wrap">
                             <div class="staggered-icon"><i data-lucide="award"></i></div>
@@ -511,7 +501,8 @@
                     <div class="staggered-card card-blue">
                         <div>
                             <h3 class="staggered-title">Hotel Pickup</h3>
-                            <p class="staggered-desc">Door-to-door convenience from your hotel, residence or airport terminal.</p>
+                            <p class="staggered-desc">Door-to-door convenience from your hotel, residence or airport
+                                terminal.</p>
                         </div>
                         <div class="staggered-icon-wrap">
                             <div class="staggered-icon"><i data-lucide="map-pin"></i></div>
@@ -561,8 +552,9 @@
             <div class="tc-love-header">
                 <span class="section-eyebrow" style="margin-bottom: 8px;">TRUSTED BY TRAVELLERS</span>
                 <h2 class="tc-love-title">Trusted By Travellers</h2>
-                <p style="font-size: 1.05rem; color: #475569; margin-top: 8px;">Thousands of travellers have explored Dubai with us.</p>
-                
+                <p style="font-size: 1.05rem; color: #475569; margin-top: 8px;">Thousands of travellers have explored
+                    Dubai with us.</p>
+
                 <!-- Trust Stats Counters Row -->
                 <div class="tc-stat-bar">
                     <div class="tc-stat-item">
@@ -598,10 +590,12 @@
                         <div style="color: #f59e0b; font-size: 1.05rem; margin-bottom: 8px;">★★★★★</div>
                         <span class="tc-quote-icon">“</span>
                         <p class="tc-review-text">
-                            "Our guide tailored the whole day around our family. We saw the Burj Khalifa, the souks, and Palm Jumeirah at our own pace without waiting for other guests. Unforgettable journey!"
+                            "Our guide tailored the whole day around our family. We saw the Burj Khalifa, the souks, and
+                            Palm Jumeirah at our own pace without waiting for other guests. Unforgettable journey!"
                         </p>
                     </div>
-                    <div class="tc-author-wrap" style="justify-content: space-between; align-items: center; width: 100%;">
+                    <div class="tc-author-wrap"
+                        style="justify-content: space-between; align-items: center; width: 100%;">
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <img src="./images/avatar_sarah.jpg" alt="Sarah M." class="tc-avatar-img">
                             <div>
@@ -609,7 +603,8 @@
                                 <div class="tc-author-meta">Tripadvisor Review</div>
                             </div>
                         </div>
-                        <a href="https://www.tripadvisor.com" target="_blank" style="color: var(--primary-blue); font-size: 0.85rem; font-weight: 700;">Read Reviews →</a>
+                        <a href="https://www.tripadvisor.com" target="_blank"
+                            style="color: var(--primary-blue); font-size: 0.85rem; font-weight: 700;">Read Reviews →</a>
                     </div>
                 </div>
 
@@ -619,10 +614,12 @@
                         <div style="color: #f59e0b; font-size: 1.05rem; margin-bottom: 8px;">★★★★★</div>
                         <span class="tc-quote-icon">“</span>
                         <p class="tc-review-text">
-                            "Having our own vehicle and private guide made all the difference. No crowded buses, no fixed group itinerary. Just Dubai, our way. The team on WhatsApp was always responsive."
+                            "Having our own vehicle and private guide made all the difference. No crowded buses, no
+                            fixed group itinerary. Just Dubai, our way. The team on WhatsApp was always responsive."
                         </p>
                     </div>
-                    <div class="tc-author-wrap" style="justify-content: space-between; align-items: center; width: 100%;">
+                    <div class="tc-author-wrap"
+                        style="justify-content: space-between; align-items: center; width: 100%;">
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <div class="tc-avatar-badge tc-avatar-blue">JK</div>
                             <div>
@@ -630,7 +627,8 @@
                                 <div class="tc-author-meta">Airbnb Review</div>
                             </div>
                         </div>
-                        <a href="https://www.airbnb.com" target="_blank" style="color: var(--primary-blue); font-size: 0.85rem; font-weight: 700;">Read Reviews →</a>
+                        <a href="https://www.airbnb.com" target="_blank"
+                            style="color: var(--primary-blue); font-size: 0.85rem; font-weight: 700;">Read Reviews →</a>
                     </div>
                 </div>
 
@@ -640,10 +638,12 @@
                         <div style="color: #f59e0b; font-size: 1.05rem; margin-bottom: 8px;">★★★★★</div>
                         <span class="tc-quote-icon">“</span>
                         <p class="tc-review-text">
-                            "The Sheikh Zayed Grand Mosque tour was breathtaking. Our licensed guide answered every question and shared fascinating local culture. Highly recommend Khattourism!"
+                            "The Sheikh Zayed Grand Mosque tour was breathtaking. Our licensed guide answered every
+                            question and shared fascinating local culture. Highly recommend Khattourism!"
                         </p>
                     </div>
-                    <div class="tc-author-wrap" style="justify-content: space-between; align-items: center; width: 100%;">
+                    <div class="tc-author-wrap"
+                        style="justify-content: space-between; align-items: center; width: 100%;">
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <div class="tc-avatar-badge tc-avatar-orange">FA</div>
                             <div>
@@ -651,7 +651,8 @@
                                 <div class="tc-author-meta">Tripadvisor Review</div>
                             </div>
                         </div>
-                        <a href="https://www.tripadvisor.com" target="_blank" style="color: var(--primary-blue); font-size: 0.85rem; font-weight: 700;">Read Reviews →</a>
+                        <a href="https://www.tripadvisor.com" target="_blank"
+                            style="color: var(--primary-blue); font-size: 0.85rem; font-weight: 700;">Read Reviews →</a>
                     </div>
                 </div>
             </div>
@@ -667,7 +668,8 @@
                 <div class="tc-how-header">
                     <span class="tc-how-eyebrow">Seamless Booking Process</span>
                     <h3 class="tc-how-title">How It Works</h3>
-                    <p style="font-size: 0.88rem; color: #64748b; margin-top: 4px;">Booking your private tour takes just a few simple steps</p>
+                    <p style="font-size: 0.88rem; color: #64748b; margin-top: 4px;">Booking your private tour takes just
+                        a few simple steps</p>
                 </div>
 
                 <div class="tc-steps-row">
@@ -675,28 +677,32 @@
                     <div class="tc-step-item">
                         <div class="tc-step-num">01</div>
                         <h4 class="tc-step-title">Choose Your Tour</h4>
-                        <p class="tc-step-desc">Browse our private tours and select the itinerary that fits your travel style.</p>
+                        <p class="tc-step-desc">Browse our private tours and select the itinerary that fits your travel
+                            style.</p>
                     </div>
 
                     <!-- Step 02 -->
                     <div class="tc-step-item">
                         <div class="tc-step-num">02</div>
                         <h4 class="tc-step-title">Tell Us Your Plans</h4>
-                        <p class="tc-step-desc">Share your dates, hotel pickup details, and personal landmarks of interest.</p>
+                        <p class="tc-step-desc">Share your dates, hotel pickup details, and personal landmarks of
+                            interest.</p>
                     </div>
 
                     <!-- Step 03 -->
                     <div class="tc-step-item">
                         <div class="tc-step-num">03</div>
                         <h4 class="tc-step-title">We Confirm & Prepare</h4>
-                        <p class="tc-step-desc">Your private vehicle and licensed guide are reserved and ready for your day.</p>
+                        <p class="tc-step-desc">Your private vehicle and licensed guide are reserved and ready for your
+                            day.</p>
                     </div>
 
                     <!-- Step 04 -->
                     <div class="tc-step-item">
                         <div class="tc-step-num">04</div>
                         <h4 class="tc-step-title">Enjoy Dubai Your Way</h4>
-                        <p class="tc-step-desc">Sit back and experience Dubai at your own pace with door-to-door comfort.</p>
+                        <p class="tc-step-desc">Sit back and experience Dubai at your own pace with door-to-door
+                            comfort.</p>
                     </div>
                 </div>
             </div>
@@ -708,10 +714,13 @@
         <div class="container">
             <div class="custom-trip-banner-coded">
                 <!-- Dashed Flight Curve SVG -->
-                <svg class="custom-trip-flight-svg" viewBox="0 0 950 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M 40 135 C 190 120, 260 140, 320 200 C 400 290, 370 410, 480 410 C 580 410, 540 240, 640 140" stroke="#0077e6" stroke-width="2.5" stroke-dasharray="8 8" fill="none"/>
+                <svg class="custom-trip-flight-svg" viewBox="0 0 950 520" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M 40 135 C 190 120, 260 140, 320 200 C 400 290, 370 410, 480 410 C 580 410, 540 240, 640 140"
+                        stroke="#0077e6" stroke-width="2.5" stroke-dasharray="8 8" fill="none" />
                     <g transform="translate(635, 125) rotate(42) scale(1.1)">
-                        <path d="M12 2L15 8L22 9L17 14L18 21L12 18L6 21L7 14L2 9L9 8L12 2Z" fill="#0077e6"/>
+                        <path d="M12 2L15 8L22 9L17 14L18 21L12 18L6 21L7 14L2 9L9 8L12 2Z" fill="#0077e6" />
                     </g>
                 </svg>
 
@@ -722,7 +731,9 @@
                             READY TO DISCOVER DUBAI?
                         </h2>
                         <p class="custom-trip-live-desc">
-                            Your Dubai experience starts here. Explore Dubai with licensed local guides, private vehicles and personalised itineraries — designed around your time, interests and travel style.
+                            Your Dubai experience starts here. Explore Dubai with licensed local guides, private
+                            vehicles and personalised itineraries — designed around your time, interests and travel
+                            style.
                         </p>
 
                         <div class="custom-trip-live-checklist">
@@ -747,7 +758,8 @@
                         </div>
 
                         <div class="custom-trip-live-actions">
-                            <a href="#featured-tours" class="btn-primary" style="padding: 12px 24px; font-size: 0.95rem;">
+                            <a href="#featured-tours" class="btn-primary"
+                                style="padding: 12px 24px; font-size: 0.95rem;">
                                 <i data-lucide="compass"></i>
                                 <span>EXPLORE TOURS</span>
                             </a>
@@ -760,7 +772,8 @@
 
                     <!-- Right Visual Column (Traveler Girl Cutout) -->
                     <div class="custom-trip-traveler-column">
-                        <img src="./images/traveler_girl_cutout.png" alt="Joyful Traveler Discovering Dubai" class="custom-trip-traveler-img">
+                        <img src="./images/traveler_girl_cutout.png" alt="Joyful Traveler Discovering Dubai"
+                            class="custom-trip-traveler-img">
                     </div>
                 </div>
             </div>
@@ -785,7 +798,9 @@
                     </div>
                     <div class="faq-body open" style="max-height: 200px;">
                         <div class="faq-body-content faq-body-inner">
-                            <p>No waiting for other guests, no crowded buses, and no fixed group itinerary. You move at your own pace with a dedicated private vehicle, hotel pickup, and a licensed local guide catering to your interests.</p>
+                            <p>No waiting for other guests, no crowded buses, and no fixed group itinerary. You move at
+                                your own pace with a dedicated private vehicle, hotel pickup, and a licensed local guide
+                                catering to your interests.</p>
                         </div>
                     </div>
                 </div>
@@ -798,7 +813,8 @@
                     </div>
                     <div class="faq-body">
                         <div class="faq-body-content faq-body-inner">
-                            <p>Yes. All our private tours include direct door-to-door pickup and drop-off from any hotel, residence, or airport terminal across Dubai and Abu Dhabi.</p>
+                            <p>Yes. All our private tours include direct door-to-door pickup and drop-off from any
+                                hotel, residence, or airport terminal across Dubai and Abu Dhabi.</p>
                         </div>
                     </div>
                 </div>
@@ -811,7 +827,9 @@
                     </div>
                     <div class="faq-body">
                         <div class="faq-body-content faq-body-inner">
-                            <p>Absolutely. Your itinerary is 100% personalised. You can spend more time at the landmarks you love, skip unwanted stops, or add experiences like Burj Khalifa or private yacht cruises.</p>
+                            <p>Absolutely. Your itinerary is 100% personalised. You can spend more time at the landmarks
+                                you love, skip unwanted stops, or add experiences like Burj Khalifa or private yacht
+                                cruises.</p>
                         </div>
                     </div>
                 </div>
@@ -824,7 +842,9 @@
                     </div>
                     <div class="faq-body">
                         <div class="faq-body-content faq-body-inner">
-                            <p>Our concierge team coordinates directly with you on WhatsApp for instant confirmation, live driver tracking, itinerary adjustments, and real-time support throughout your day.</p>
+                            <p>Our concierge team coordinates directly with you on WhatsApp for instant confirmation,
+                                live driver tracking, itinerary adjustments, and real-time support throughout your day.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -843,10 +863,13 @@
                         Contact Us!
                     </h2>
                     <p class="editorial-contact-desc">
-                        Your private UAE journey is our priority. Whether you want to customize an itinerary, book a private vehicle with a licensed guide, or explore luxury yacht and jet ski experiences, our concierge team is ready to assist.
+                        Your private UAE journey is our priority. Whether you want to customize an itinerary, book a
+                        private vehicle with a licensed guide, or explore luxury yacht and jet ski experiences, our
+                        concierge team is ready to assist.
                     </p>
 
-                    <form id="contactForm" onsubmit="event.preventDefault(); alert('Thank you! Your private tour inquiry has been received. Our concierge specialist will contact you shortly.');">
+                    <form id="contactForm"
+                        onsubmit="event.preventDefault(); alert('Thank you! Your private tour inquiry has been received. Our concierge specialist will contact you shortly.');">
                         <div class="editorial-form-grid">
                             <!-- First Name -->
                             <div>
@@ -867,19 +890,23 @@
                             <!-- Tour Selection -->
                             <div>
                                 <label class="editorial-label">Tour / Experience Selection</label>
-                                <input type="text" placeholder="e.g. Dubai Half-Day, Full-Day + Burj Khalifa, Yacht" class="editorial-input">
+                                <input type="text" placeholder="e.g. Dubai Half-Day, Full-Day + Burj Khalifa, Yacht"
+                                    class="editorial-input">
                             </div>
 
                             <!-- Phone / WhatsApp -->
                             <div class="editorial-form-full">
                                 <label class="editorial-label">Phone / WhatsApp</label>
-                                <input type="tel" placeholder="Enter your phone number with country code" required class="editorial-input">
+                                <input type="tel" placeholder="Enter your phone number with country code" required
+                                    class="editorial-input">
                             </div>
 
                             <!-- Message -->
                             <div class="editorial-form-full">
                                 <label class="editorial-label">Message / Travel Details</label>
-                                <input type="text" placeholder="Travel dates, number of guests, hotel pickup location, or custom requests" class="editorial-input">
+                                <input type="text"
+                                    placeholder="Travel dates, number of guests, hotel pickup location, or custom requests"
+                                    class="editorial-input">
                             </div>
                         </div>
 
@@ -928,8 +955,10 @@
                         <div class="editorial-info-content">
                             <h3 class="editorial-info-heading">Where to Find Us</h3>
                             <div class="editorial-info-text">
-                                <p style="margin-bottom: 4px; font-weight: 600; color: #1e293b;">concierge@khattourism.com</p>
-                                <p style="margin-bottom: 6px;">Dubai International Financial Centre (DIFC) & Dubai Marina, UAE</p>
+                                <p style="margin-bottom: 4px; font-weight: 600; color: #1e293b;">
+                                    concierge@khattourism.com</p>
+                                <p style="margin-bottom: 6px;">Dubai International Financial Centre (DIFC) & Dubai
+                                    Marina, UAE</p>
                                 <span style="display: block; color: #64748b; font-size: 0.8rem;">
                                     We are available before and during your tour via WhatsApp support.
                                 </span>
@@ -1021,18 +1050,25 @@
                         </div>
                         <div class="logo-text">
                             <span class="logo-title" style="color: #fff; font-size: 1.2rem;">Khattourism</span>
-                            <span class="logo-tagline" style="color: var(--primary-blue-light);">Private Dubai Tours</span>
+                            <span class="logo-tagline" style="color: var(--primary-blue-light);">Private Dubai
+                                Tours</span>
                         </div>
                     </a>
                     <p class="footer-brand-desc">
-                        Explore Dubai with licensed local guides, private vehicles and personalised itineraries — designed around your time, interests and travel style.
+                        Explore Dubai with licensed local guides, private vehicles and personalised itineraries —
+                        designed around your time, interests and travel style.
                     </p>
                     <div class="footer-social-links">
-                        <a href="https://www.tripadvisor.com" target="_blank" aria-label="Tripadvisor"><i data-lucide="star"></i></a>
-                        <a href="https://www.airbnb.com" target="_blank" aria-label="Airbnb"><i data-lucide="award"></i></a>
-                        <a href="https://wa.me/971501234567" target="_blank" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
-                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i data-lucide="instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i data-lucide="globe"></i></a>
+                        <a href="https://www.tripadvisor.com" target="_blank" aria-label="Tripadvisor"><i
+                                data-lucide="star"></i></a>
+                        <a href="https://www.airbnb.com" target="_blank" aria-label="Airbnb"><i
+                                data-lucide="award"></i></a>
+                        <a href="https://wa.me/971501234567" target="_blank" aria-label="WhatsApp"><i
+                                data-lucide="message-circle"></i></a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i
+                                data-lucide="instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i
+                                data-lucide="globe"></i></a>
                     </div>
                 </div>
 
@@ -1107,11 +1143,14 @@
     </footer>
 
     <!-- FIXED WHATSAPP BUTTON FOR MOBILE & DESKTOP -->
-    <a href="https://wa.me/971501234567" target="_blank" class="floating-whatsapp" id="floatingWhatsapp" aria-label="Chat on WhatsApp" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999; background: #25d366; color: #ffffff; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4); text-decoration: none; transition: transform 0.25s ease;">
+    <a href="https://wa.me/971501234567" target="_blank" class="floating-whatsapp" id="floatingWhatsapp"
+        aria-label="Chat on WhatsApp"
+        style="position: fixed; bottom: 24px; right: 24px; z-index: 9999; background: #25d366; color: #ffffff; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4); text-decoration: none; transition: transform 0.25s ease;">
         <i data-lucide="message-circle" style="width: 28px; height: 28px; stroke-width: 2.2;"></i>
     </a>
 
     <!-- Custom JS -->
     <script src="index.js"></script>
 </body>
+
 </html>
