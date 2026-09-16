@@ -77,7 +77,10 @@
 
             <div class="header-right-action">
                 <a href="https://wa.me/971501234567" target="_blank" class="header-whatsapp-pill">
-                    <i data-lucide="message-circle"></i> WhatsApp Us
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="display: inline-block; vertical-align: middle;">
+                        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 10.99c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.18-.47-.3"/>
+                    </svg>
+                    WhatsApp Us
                 </a>
                 <div class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
                     <i data-lucide="menu"></i>
@@ -88,14 +91,20 @@
 
     <!-- 1. BRIGHT LUXURY HERO SECTION (EXACTLY AS PER REFERENCE IMAGES) -->
     <section class="hero-bright-section" id="hero">
-        <!-- Bright left-to-right daylight overlay -->
+        <!-- Responsive Background Picture (Desktop Landscape & Mobile 9:16 Portrait) -->
+        <picture class="hero-bg-picture">
+            <source media="(max-width: 768px)" srcset="./images/dubai_hero_mobile.jpg">
+            <img src="./images/dubai_hero_new.jpg" alt="Discover Dubai with a Local Guide" class="hero-bg-img" fetchpriority="high">
+        </picture>
+
+        <!-- Dynamic contrast overlay -->
         <div class="hero-bright-overlay"></div>
 
         <!-- Desktop Top Right Handwritten Script Tag -->
         <div class="hero-script-badge">
             <span class="script-quote">More<br>than a trip.<br>A story to tell.</span>
             <svg class="script-curl-svg" width="90" height="18" viewBox="0 0 90 18" fill="none">
-                <path d="M4 14C24 4 60 4 86 12" stroke="#0a2540" stroke-width="2.2" stroke-linecap="round" />
+                <path d="M4 14C24 4 60 4 86 12" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" />
             </svg>
         </div>
 
@@ -104,9 +113,9 @@
 
 
                 <!-- Main Bold Title -->
-                <h1 class="hero-headline">
-                    DISCOVER<br>
-                    <span class="hero-title-blue">DUBAI.</span>
+                <h1 class="hero-headline" data-text-reveal aria-label="DISCOVER DUBAI.">
+                    <span class="text-reveal-mask"><span class="text-reveal-word">DISCOVER</span></span><br>
+                    <span class="hero-title-blue"><span class="text-reveal-mask"><span class="text-reveal-word">DUBAI.</span></span></span>
                 </h1>
                 <div class="hero-subheadline">
                     EXPERIENCE IT WITH A LOCAL.
@@ -122,7 +131,10 @@
                         <i data-lucide="compass"></i> EXPLORE <i data-lucide="arrow-right"></i>
                     </a>
                     <a href="https://wa.me/971501234567" target="_blank" class="btn-hero-whatsapp">
-                        <i data-lucide="message-circle"></i> WHATSAPP US
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="display: inline-block; vertical-align: middle;">
+                            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 10.99c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.18-.47-.3"/>
+                        </svg>
+                        WHATSAPP US
                     </a>
                 </div>
 
@@ -235,8 +247,8 @@
         </div>
     </section>
 
-    <!-- ARCH DESTINATION CATEGORIES -->
-    <section class="arch-destinations-section" id="tour-categories">
+    <!-- ARCH DESTINATION CATEGORIES / FEATURED TOURS -->
+    <section class="arch-destinations-section" id="featured-tours">
         <div class="container">
             <div class="section-header">
                 <span class="section-eyebrow">Curated Itineraries</span>
@@ -252,7 +264,18 @@
             </div>
 
             <div class="arch-pills-grid">
-                <!-- Arch 1: Half Day -->
+                <!-- Arch 1: Modern Dubai Tour -->
+                <a href="modern-dubai-tour.html" class="arch-pill-card" data-category="dubai">
+                    <div class="arch-pill-image-wrapper">
+                        <img src="./images/museum_future_dubai.jpg" alt="Modern Dubai Tour - Iconic Skyline & Architecture">
+                        <div class="arch-pill-overlay">
+                            <h3 class="arch-pill-title">Modern Dubai Tour</h3>
+                            <span class="arch-pill-sub">4 Hours • Skyline & Architecture</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Arch 2: Half Day -->
                 <a href="dubai-half-day-city-tour.html" class="arch-pill-card" data-category="dubai">
                     <div class="arch-pill-image-wrapper">
                         <img src="./images/dubai_half_day.jpg" alt="Dubai Half-Day City Tour">
@@ -1076,10 +1099,10 @@
                 <div class="footer-col">
                     <h5>Explore Dubai</h5>
                     <ul class="footer-links-list">
-                        <li><a href="#tour-half-day">Dubai Half-Day City Tour</a></li>
-                        <li><a href="#tour-full-day">Dubai Full-Day Tour + Burj Khalifa</a></li>
-                        <li><a href="#tour-old-dubai">Old Dubai Walking Tour</a></li>
-                        <li><a href="#tour-modern-dubai">Modern Dubai Tour</a></li>
+                        <li><a href="dubai-half-day-city-tour.html">Dubai Half-Day City Tour</a></li>
+                        <li><a href="dubai-half-day-city-tour.html">Dubai Full-Day Tour + Burj Khalifa</a></li>
+                        <li><a href="old-dubai-walking-tour.html">Old Dubai Walking Tour</a></li>
+                        <li><a href="modern-dubai-tour.html">Modern Dubai Tour</a></li>
                     </ul>
                 </div>
 
@@ -1087,10 +1110,10 @@
                 <div class="footer-col">
                     <h5>Abu Dhabi & Luxury</h5>
                     <ul class="footer-links-list">
-                        <li><a href="#tour-abu-dhabi">Abu Dhabi Full-Day Sightseeing</a></li>
-                        <li><a href="#tour-grand-mosque">Sheikh Zayed Grand Mosque Tour</a></li>
-                        <li><a href="#tour-yacht">Private Yacht Tour</a></li>
-                        <li><a href="#tour-jet-ski">Jet Ski Experience</a></li>
+                        <li><a href="abu-dhabi-sightseeing-tour-from-dubai.html">Abu Dhabi Full-Day Sightseeing</a></li>
+                        <li><a href="sheikh-zayed-grand-mosque-tour-from-dubai.html">Sheikh Zayed Grand Mosque Tour</a></li>
+                        <li><a href="private-yacht-tour-dubai.html">Private Yacht Tour</a></li>
+                        <li><a href="dubai-jet-ski-tour-burj-al-arab.html">Jet Ski Experience</a></li>
                     </ul>
                 </div>
 
@@ -1146,7 +1169,9 @@
     <a href="https://wa.me/971501234567" target="_blank" class="floating-whatsapp" id="floatingWhatsapp"
         aria-label="Chat on WhatsApp"
         style="position: fixed; bottom: 24px; right: 24px; z-index: 9999; background: #25d366; color: #ffffff; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4); text-decoration: none; transition: transform 0.25s ease;">
-        <i data-lucide="message-circle" style="width: 28px; height: 28px; stroke-width: 2.2;"></i>
+        <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 10.99c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.17 1.73 2.64 4.2 3.7.59.25 1.05.4 1.41.51.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.18-.47-.3"/>
+        </svg>
     </a>
 
     <!-- Custom JS -->
