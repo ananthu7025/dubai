@@ -2434,23 +2434,42 @@ section {
 
 /* Reviews Carousel Grid */
 .tc-reviews-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 22px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 8px 4px 18px;
   margin-bottom: 26px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tc-reviews-row::-webkit-scrollbar {
+  display: none;
 }
 
 .tc-review-card {
+  flex: 0 0 360px;
+  max-width: 360px;
+  scroll-snap-align: start;
   background: #ffffff;
   border-radius: 20px;
   padding: 28px 24px 22px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 240px;
+  min-height: 270px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .tc-review-card {
+    flex: 0 0 85vw;
+    max-width: 85vw;
+  }
 }
 
 .tc-review-card:hover {
@@ -2474,6 +2493,30 @@ section {
   margin-bottom: 20px;
 }
 
+.tc-platform-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.tag-tripadvisor {
+  background: #e8f7f0;
+  color: #007e54;
+  border: 1px solid rgba(0, 166, 108, 0.25);
+}
+
+.tag-airbnb {
+  background: #fff0f3;
+  color: #e00b41;
+  border: 1px solid rgba(224, 11, 65, 0.25);
+}
+
 .tc-author-wrap {
   display: flex;
   align-items: center;
@@ -2493,12 +2536,13 @@ section {
 .tc-avatar-badge {
   width: 44px;
   height: 44px;
+  min-width: 44px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: #ffffff;
 }
 
@@ -2508,6 +2552,18 @@ section {
 
 .tc-avatar-orange {
   background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.tc-avatar-green {
+  background: linear-gradient(135deg, #00aa6c 0%, #00875a 100%);
+}
+
+.tc-avatar-airbnb {
+  background: linear-gradient(135deg, #ff385c 0%, #d70466 100%);
+}
+
+.tc-avatar-purple {
+  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
 }
 
 .tc-author-name {
